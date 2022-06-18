@@ -20,6 +20,8 @@ uefa_core = {
     "Leg axis": {"training": [16, 17, 18], "group": "Stability & Strength", "type": "2"}, 
 }
 
+
+
 uefa_20 = {
     "T-spine extension": {"training":[2], "group" : "Mobility", "type": "1"}, 
     "T-spine rotation": {"training":[2], "group" : "Mobility", "type": "2"}, 
@@ -39,6 +41,46 @@ cc25 = {
     "Sit/Wall test": {"training": [1, 2, 19], "group": "Flexibility", "type": "1"},
 
     "Hip abductors 2": {"training": [16], "group": "Stability & Strength", "type": "2"},
+}
+
+tr_shorts = {
+    "Shoulder FLEX": "Shoulder flexion",
+    "TX EXT": "T-spine extension",
+    "TX ROT L": "T-spine rotation",
+    "Hip FLEX L": "Hip flexion",
+    "Hip FLEX R": "Hip flexion",
+    "Hip EXT L": "Hip extension",
+    "Hip EXT R": "Hip extension",
+    "Hip EXROT L": "Hip exorotation",
+    "Hip EXROT R": "Hip exorotation",
+    "Hip ENROT L": "Hip endorotation",
+    "Hip ENROT R": "Hip endorotation",
+    "Ankle DF L": "Ankle dorsiflexion",
+    "Ankle DF R": "Ankle dorsiflexion",
+    "Pectoralis": "Pectoralis",
+    "Hip Flexor L": "Hip flexor",
+    "Hip Flexor R": "Hip flexor",
+    "Quadr L": "Quadriceps",
+    "Quadr R": "Quadriceps",
+    "Add": "Adductors",
+    "Hamstr L": "Hamstrings",
+    "Hamstr R": "Hamstrings",
+    "Sit&Reach": "Sit & Reach",
+    "Sit/Wall": "Sit/Wall test",
+    "1-leg L": "1-leg stand",
+    "1-leg R": "1-leg stand",
+    "Ventral": "Ventral core",
+    "Dorsal": "Dorsal core",
+    "Lateral L": "Lateral core",
+    "Lateral R": "Lateral core",
+    "Hip Abd1 L": "Hip abductors 1",
+    "Hip Abd1 R": "Hip abductors 1",
+    "Hip Abd2 L": "Hip abductors 2",
+    "Hip Abd2 R": "Hip abductors 2",
+    "Hip Ext L": "Hip extensors",
+    "Hip Ext R": "Hip extensors",
+    "Leg Axis L": "Leg axis",
+    "Leg Axis R": "Leg axis",
 }
 
 types = {

@@ -1,4 +1,4 @@
-from turtle import color
+
 import pandas as pd
 import static
 import os
