@@ -13,6 +13,7 @@ protocol = data.iloc[0][0]
 venue = data.iloc[1][0]
 date = data.iloc[2][0]
 def generate_single_result(row):
+    # This function shoud form the test results to an old form and perform the training recomendations calculation and writing to excel
     pass
 
 
@@ -55,9 +56,11 @@ for s in stats:
     stats_list.append(s)
 
 def write_result(res):
+    # This function should copy the input excel and add scores and stats
     pass
 
 fin_list = rows + stats_list
 
+write_result(fin_list)
 
 
