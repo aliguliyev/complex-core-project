@@ -1,0 +1,6 @@
+# everything from results folder
+# env folder
+results/*xlsx
+env/
+__pycache__/
+.dist/
