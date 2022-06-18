@@ -1,0 +1,6 @@
+# everything from results folder
+# env folder
+results/**
+env/
+__pycache__/
+.dist/
