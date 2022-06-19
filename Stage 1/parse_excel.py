@@ -3,7 +3,6 @@ import pandas as pd
 import static
 import os
 import xlsxwriter as xw
-import datetime
 # from . import static 
 # from static import get_score_txt
 os.system("cls")

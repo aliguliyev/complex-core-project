@@ -1,13 +1,13 @@
-import pandas as pd
-import static
 import os
-import xlsxwriter as xw
-import datetime
 
+import pandas as pd
+import XlsxWriter as xw
+
+import static
 
 os.system("cls")
 
-data = pd.read_excel("./src/core.xlsx")
+data = pd.read_excel("./src/cc25_2.xlsx")
 
 protocol = data.iloc[0][0]
 venue = data.iloc[1][0]
@@ -57,8 +57,20 @@ for s in stats:
 
 def write_result(res):
     # This function should copy the input excel and add scores and stats
-    wbname = protocol + "_" + venue + "_" + datetime.date()
-
+    wbname = protocol + "_" + venue + "_" + date
+    wb = xw.Workbook("./results/" + wbname)
+    ws = wb.add_worksheet()
+    # Header of the file
+    ws.write(0, 0, protocol)
+    ws.write(1, 0, venue)
+    ws.write(2, 0, date)
+    for i in range([5,6]):
+        for j in range(len(ln(protocol)) + 3):
+            ws.write(i, j, res[i][j])
+    # ------------------
+    for i in range(len(res)):
+        for j in range(len(res[i])):
+            ws.write(i + 6, j, res[i][j])
 fin_list = rows + stats_list
 
 write_result(fin_list)
