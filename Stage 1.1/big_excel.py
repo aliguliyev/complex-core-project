@@ -35,7 +35,7 @@ ln = {
     "UEFA CORE" : 24
 }
 
-
+# row: [name, birthdate, tests..]
 rows = []
 for i in range(6, len(data)):
     tests = []
@@ -45,10 +45,10 @@ for i in range(6, len(data)):
         score = data.iloc[i][j]
         row.append(score)
         sum_res += score
+    generate_single_result(row)
     row.append(sum_res)
     row.append(static.get_score_txt(sum_res))
     rows.append(row)
-    generate_single_result(row)
 
 stats = generate_stats(rows)
 stats_list = ["STATS", ""]
@@ -57,7 +57,7 @@ for s in stats:
 
 def write_result(res):
     # This function should copy the input excel and add scores and stats
-    pass
+    wbname = protocol + "_" + venue + "_" + datetime.date()
 
 fin_list = rows + stats_list
 
