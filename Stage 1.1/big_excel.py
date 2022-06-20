@@ -31,8 +31,8 @@ def write_result_to_excel(final_dict, body_colors, rn_dict):
     ws.write(1, 0, "PERSONAL DATA")
     ws.write(2, 0, "Name")  
     ws.write(2, 1, rn_dict["Name"])
-    ws.write(3, 0, "Birth Day")
-    ws.write(3, 1, rn_dict["Birth Day"])
+    ws.write(3, 0, "Birth Date")
+    ws.write(3, 1, rn_dict["Birth Date"])
     ws.write(4, 0, "Date")
     ws.write(4, 1, rn_dict["Date"])
     ws.write(5, 0, "Venue")
@@ -110,12 +110,14 @@ def generate_single_result(row):
         short = data.iloc[4][i]
         test = static.tr_shorts[short]
         if static.types[test] == "1":
-            rn_dict[test] = row[i]
+            rn_dict[test] = {"Score" : row[i]}
         elif static.types[test] == "2":
             rn_dict[test] = {
-                "L" : row[i],
-                "R" : row[i + 1]
-            }
+                "Score" : {
+                    "L" : row[i],
+                    "R" : row[i + 1]
+                    }
+                }
             i += 1
 
     
@@ -187,6 +189,9 @@ def generate_single_result(row):
         score += t_score
         if t_score > 0:
             for t in t_protocol[key]["training"]:
+                if t == 11:
+                    final_dict["training"]["Flexibility"].add("Calf")
+                    continue
                 final_dict["training"][t_group].add(static.trainings[t_group][str(t)])
     final_dict["score"] = score
     final_dict["score_txt"] = static.get_score_txt(score, protocol)
