@@ -1,5 +1,6 @@
 from cmath import nan
 import os
+from typing import final
 from numpy import short
 
 import pandas as pd
@@ -9,7 +10,7 @@ import static
 
 os.system("cls")
 
-data = pd.read_excel("./src/cc25_2.xlsx")
+data = pd.read_excel("./src/core2.xlsx")
 
 protocol = data.columns[0]
 # print(data)
@@ -17,6 +18,7 @@ venue = data.iloc[0][1]
 date = data.iloc[1][1]
 
 def write_result_to_excel(final_dict, body_colors, rn_dict):
+    # print(body_colors)
     results = final_dict
     colors = body_colors
     print("Started writing to file...")
@@ -60,9 +62,9 @@ def write_result_to_excel(final_dict, body_colors, rn_dict):
         height.append(i)
         ws.write(9+i, 3, results["training"]["Stability & Strength"][i])
 
-    h = max(height)
-    ws.write(9+h+3, 0, "General Information : ")
-    ws.write(9+h+3, 1, str(results["General Information"]))
+    h = max(height, default=0)
+    ws.write(9+h+3, 0, "Additional Information : ")
+    ws.write(9+h+3, 1, str(results["Additional Information"]))
 
     lh = 9+h+3
 
@@ -90,12 +92,13 @@ def write_result_to_excel(final_dict, body_colors, rn_dict):
     
 
 def generate_single_result(row):
+    print("Generating result for row:\n", row, "\n")
     if protocol == "UEFA CORE":
-        r_dict = dict.fromkeys(list(static.uefa_core.keys()), 0)
+        r_dict = dict.fromkeys(list(static.uefa_core.keys()) + ["Additional Information"], 0)
     elif protocol == "UEFA20":
-        r_dict = dict.fromkeys(list(static.uefa_core.keys()) + list(static.uefa_20.keys()), 0)
+        r_dict = dict.fromkeys(list(static.uefa_core.keys()) + list(static.uefa_20.keys()) + ["Additional Information"], 0)
     elif protocol == "CC25":
-        r_dict = dict.fromkeys(list(static.uefa_core.keys()) + list(static.uefa_20.keys()) + list(static.cc25.keys()), 0)
+        r_dict = dict.fromkeys(list(static.uefa_core.keys()) + list(static.uefa_20.keys()) + list(static.cc25.keys()) + ["Additional Information"], 0)
     # This function shoud form the test results to an old form and perform the training recomendations calculation and writing to excel
     keys = list(r_dict.keys())
     # new_keys = list(static.tr_shorts.keys())
@@ -105,22 +108,44 @@ def generate_single_result(row):
     rn_dict["Birth Date"] = row[1]
     rn_dict["Date"] = date
     rn_dict["Venue"] = venue
-    
+    to_continue = False
     for i in range(2, len(row) - 2):
+        # input("Press Enter to continue...")
+        if to_continue:
+            to_continue = False
+            continue
+        # print(i, ":", row[i])
+        # shorts_set = set()
         short = data.iloc[4][i]
+        # print("Short:", short)
+        if short == "Additional Information":
+            continue
+        
         test = static.tr_shorts[short]
         if static.types[test] == "1":
+            # print("\n-------------\n",i, "\n",row[i])
             rn_dict[test] = {"Score" : row[i]}
+            # print("Added to", test, ":", row[i])
+            to_continue = False
         elif static.types[test] == "2":
+            # print("\n-------------\n",i,"\nL:", row[i])
+            # print("R:", row[i+1], "\n-------------")
+
             rn_dict[test] = {
                 "Score" : {
                     "L" : row[i],
                     "R" : row[i + 1]
                     }
                 }
-            i += 1
+            # print("Added to", test, ":", row[i], "|", row[i + 1])
+            to_continue = True
+        # input("Press Enter to continue...")
+        # print("\n-------------\n",rn_dict[test])
 
-    
+    print("Generated result dictionary")
+    # for rk in rn_dict:
+    #     print(rk, ":", rn_dict[rk])
+    # print(rn_dict)
     # pasted
     final_dict = {
         "score": 0,
@@ -131,16 +156,18 @@ def generate_single_result(row):
             "Coordination & Proprioception": set(),
             "Stability & Strength": set()
         },
-        "General Information": "",
+        "Additional Information": row[-1],
     }
     body_colors = {}
     score = 0
     
+    # for key in rn_dict:
+    #     print(key, ":", rn_dict[key])
     
     for key in rn_dict:
         if key in common_keys:
             continue
-        elif key == "General Information":
+        elif key == "Additional Information":
             continue
         elif key in static.uefa_core:
             t_protocol = static.uefa_core
@@ -158,8 +185,10 @@ def generate_single_result(row):
         
 
         if static.types[key] == "1":
+            # print("\n-------------\n" + key)
             t_score = rn_dict[key]["Score"]
             body_part = static.body_parts[key]
+            # print("Body part:", body_part)
             if body_part in body_colors:
                 body_colors[body_part]["C"].append(t_score)
             else:
@@ -173,8 +202,8 @@ def generate_single_result(row):
             t_score = rn_dict[key]["Score"]["L"] + rn_dict[key]["Score"]["R"]
             body_part = static.body_parts[key]
             if body_part in body_colors:
-                print(body_colors[body_part])
-                print(rn_dict[key])
+                # print(body_colors[body_part])
+                # print(rn_dict[key])
                 body_colors[body_part]["L"].append(rn_dict[key]["Score"]["L"])
                 body_colors[body_part]["R"].append(rn_dict[key]["Score"]["R"])
             else:
@@ -183,6 +212,8 @@ def generate_single_result(row):
                     "L" : [rn_dict[key]["Score"]["L"]],
                     "R" : [rn_dict[key]["Score"]["R"]]
                 }
+        # print("\n-------------\n", body_colors[body_part])
+        # input("Press Enter to continue...")
             # body_colors[body_part].append(rn_dict[key]["Score"]["L"])
             # body_colors[body_part].append(rn_dict[key]["Score"]["R"])
           
@@ -214,6 +245,10 @@ def generate_single_result(row):
         if l_color == "" and r_color == "":
             body_colors[key] = c_color
         else:
+            # os.system("cls")
+            # print(final_dict)
+            # print(key)
+            # print(max(body_colors[key]["R"]))
             body_colors[key] = {
             "L" : static.colors[max(body_colors[key]["L"])],
             "R" : static.colors[max(body_colors[key]["R"])]
@@ -277,6 +312,7 @@ for i in range(5, len(data)):
     # print(row)
     row.append(sum_res)
     row.append(static.get_score_txt(sum_res, protocol))
+    row.append(data.iloc[i][2 + ln[protocol]])
     generate_single_result(row)
     rows.append(row)
 
@@ -304,6 +340,9 @@ def write_result(res):
                 ws.write(i, j, to_write)
             except TypeError:
                 ws.write(i, j, "")
+    ws.write(5, 2 + ln[protocol], "Result")
+    ws.write(5, 3 + ln[protocol], "Result")
+    ws.write(5, 4 + ln[protocol], "Additional Information")
     # ------------------
     for i in range(len(res)):
         for j in range(len(res[i])):

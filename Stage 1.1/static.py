@@ -145,7 +145,7 @@ trainings = {
 
 colors = {
     0: "green",
-    3: "yellow",
+    3: "orange",
     5: "red",
 }
 
