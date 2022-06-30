@@ -1,0 +1,420 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2480" height="3508" viewBox="0 0 2480 3508">
+  <defs>
+    <clipPath id="clip-Result_sheets-UEFA_1">
+      <rect width="2480" height="3508" />
+    </clipPath>
+  </defs>
+  <g id="Result_sheets-UEFA_1" data-name="Result sheets-UEFA – 1" clip-path="url(#clip-Result_sheets-UEFA_1)">
+    <rect width="2480" height="3508" fill="#fff" />
+    <g id="Group_7" data-name="Group 7" transform="translate(265.157 253.106)">
+      <rect id="Rectangle_7" data-name="Rectangle 7" width="1950" height="12" transform="translate(0.313 117.894)" fill="#ffa800" />
+    </g>
+    <g id="Group_50" data-name="Group 50" transform="translate(1372.946 519.364)"></g>
+    <g id="Group_58" data-name="Group 58" transform="translate(264.917 957.621)">
+      <text id="Result:" transform="translate(0.553 37.379)" fill="#2b2b2b" font-size="27" font-family="SegoeUI, Segoe UI">
+        <tspan x="0" y="0">Result:</tspan>
+      </text>
+    </g>
+    <g id="Group_80" data-name="Group 80" transform="translate(265.157 727.317)">
+      <rect id="Rectangle_84" data-name="Rectangle 84" width="1057" height="116" transform="translate(0.313 68.683)" fill="#eaeaea" />
+      <text id="Date:" transform="translate(0.313 36.683)" fill="#2b2b2b" font-size="27" font-family="SegoeUI, Segoe UI">
+        <tspan x="0" y="0">Date:</tspan>
+      </text>
+    </g>
+    <g id="Group_81" data-name="Group 81" transform="translate(265.157 495.07)">
+      <rect id="Rectangle_84-2" data-name="Rectangle 84" width="1057" height="116" transform="translate(0.313 66.93)" fill="#eaeaea" />
+      <text id="Name:" transform="translate(0.313 36.93)" fill="#2b2b2b" font-size="27" font-family="SegoeUI, Segoe UI">
+        <tspan x="0" y="0">Name:</tspan>
+      </text>
+    </g>
+    <g id="Group_56" data-name="Group 56" transform="translate(264.917 1190.807)">
+      <rect id="Rectangle_85" data-name="Rectangle 85" width="345" height="319" transform="translate(0.553 5.193)" fill="#fff" />
+      <path id="Rectangle_85_-_Outline" data-name="Rectangle 85 - Outline" d="M4.166,4.166V316.615H341.611V4.166H4.166M0,0H345.777V320.781H0Z" transform="translate(0 4.166)" fill="#ebebeb" />
+      <rect id="Rectangle_86" data-name="Rectangle 86" width="174" height="87" transform="translate(0.553 1.193)" fill="#eaeaea" />
+      <rect id="Rectangle_92" data-name="Rectangle 92" width="174.971" height="85.951" transform="translate(0 162.473)" fill="#eaeaea" />
+      <rect id="Rectangle_88" data-name="Rectangle 88" width="174" height="89" transform="translate(0.553 82.193)" fill="#eaeaea" />
+      <rect id="Rectangle_91" data-name="Rectangle 91" width="174.971" height="85.951" transform="translate(0 245.793)" fill="#eaeaea" />
+      <rect id="Rectangle_95" data-name="Rectangle 95" width="174.971" height="85.951" transform="translate(0 324.947)" fill="#eaeaea" />
+      <rect id="Rectangle_87" data-name="Rectangle 87" width="174" height="87" transform="translate(171.553 1.193)" fill="#fff" />
+      <rect id="Rectangle_93" data-name="Rectangle 93" width="174.971" height="85.951" transform="translate(170.805 164.193)" fill="#fff" />
+      <rect id="Rectangle_89" data-name="Rectangle 89" width="174" height="89" transform="translate(171.553 82.193)" fill="#fff" />
+      <rect id="Rectangle_90" data-name="Rectangle 90" width="174.971" height="85.951" transform="translate(170.805 245.193)" fill="#fff" />
+      <rect id="Rectangle_94" data-name="Rectangle 94" width="174.971" height="83.32" transform="translate(170.805 329.193)" fill="#fff" />
+      <text id="EXC." transform="translate(81.553 53.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-25.049" y="0">EXC.</tspan>
+      </text>
+      <text id="G" transform="translate(86.553 216.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-8.531" y="0">G</tspan>
+      </text>
+      <text id="VG" transform="translate(84.553 135.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-16.295" y="0">VG</tspan>
+      </text>
+      <text id="P" transform="translate(85.553 298.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-7.371" y="0">P</tspan>
+      </text>
+      <text id="VP" transform="translate(86.553 379.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-15.375" y="0">VP</tspan>
+      </text>
+      <text id="_0-10" data-name="0-10" transform="translate(256.553 53.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-24.205" y="0">0-10</tspan>
+      </text>
+      <text id="_21-30" data-name="21-30" transform="translate(253.797 216.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-30.674" y="0">21-30</tspan>
+      </text>
+      <text id="_11-20" data-name="11-20" transform="translate(255.553 135.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-30.674" y="0">11-20</tspan>
+      </text>
+      <text id="_31-40" data-name="31-40" transform="translate(253.797 298.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-30.674" y="0">31-40</tspan>
+      </text>
+      <text id="_41-140" data-name="41-140" transform="translate(252.465 379.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-37.143" y="0">41-140</tspan>
+      </text>
+      <g id="Group_91" data-name="Group 91">
+        <path id="Line_6" data-name="Line 6" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(0 83.693)" fill="#fff" />
+        <path id="Line_81" data-name="Line 81" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(170.805 83.693)" fill="#eaeaea" />
+      </g>
+      <g id="Group_89" data-name="Group 89">
+        <path id="Line_83" data-name="Line 83" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(170.805 246.693)" fill="#eaeaea" />
+        <path id="Line_7" data-name="Line 7" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(0 246.693)" fill="#fff" />
+      </g>
+      <g id="Group_88" data-name="Group 88" transform="translate(0 2)">
+        <path id="Line_84" data-name="Line 84" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(170.805 326.693)" fill="#eaeaea" />
+        <path id="Line_9" data-name="Line 9" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(0 326.693)" fill="#fff" />
+      </g>
+      <g id="Group_90" data-name="Group 90" transform="translate(0 -2)">
+        <path id="Line_82" data-name="Line 82" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(170.805 167.693)" fill="#eaeaea" />
+        <path id="Line_8" data-name="Line 8" d="M170.805,3.666H0V-.5H170.805Z" transform="translate(0 167.693)" fill="#fff" />
+      </g>
+      <rect id="Rectangle_96" data-name="Rectangle 96" width="670" height="87" transform="translate(387.553 1.193)" fill="#fff" />
+      <path id="Rectangle_96_-_Outline" data-name="Rectangle 96 - Outline" d="M4.166,4.166V83.32H666.557V4.166H4.166M0,0H670.723V87.486H0Z" transform="translate(387.436)" fill="#ebebeb" />
+      <rect id="Rectangle_97" data-name="Rectangle 97" width="670" height="89" transform="translate(387.553 82.193)" fill="#fff" />
+      <path id="Rectangle_97_-_Outline" data-name="Rectangle 97 - Outline" d="M4.166,4.166V83.32H666.557V4.166H4.166M0,0H670.723V87.486H0Z" transform="translate(387.436 83.32)" fill="#ebebeb" />
+      <rect id="Rectangle_104" data-name="Rectangle 104" width="225" height="87" transform="translate(387.553 1.193)" fill="#50bf79" />
+      <rect id="Rectangle_107" data-name="Rectangle 107" width="220" height="87" transform="translate(612.553 1.193)" fill="#eb6d0d" />
+      <rect id="Rectangle_108" data-name="Rectangle 108" width="225" height="87" transform="translate(832.553 1.193)" fill="#c41e1e" />
+      <rect id="Rectangle_105" data-name="Rectangle 105" width="225" height="89" transform="translate(387.553 82.193)" fill="#eaeaea" />
+      <rect id="Rectangle_106" data-name="Rectangle 106" width="220" height="89" transform="translate(612.553 82.193)" fill="#eaeaea" />
+      <rect id="Rectangle_109" data-name="Rectangle 109" width="225" height="89" transform="translate(832.553 82.193)" fill="#eaeaea" />
+      <text id="_0" data-name="0" transform="translate(498.553 135.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-6.902" y="0">0</tspan>
+      </text>
+      <text id="_3" data-name="3" transform="translate(723.553 135.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-6.902" y="0">3</tspan>
+      </text>
+      <text id="_5" data-name="5" transform="translate(943.553 135.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="-6.902" y="0">5</tspan>
+      </text>
+      <text id="No_weakening" data-name="No
+weakening" transform="translate(404.553 202.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-16.008" y="26">No</tspan>
+        <tspan x="-56.848" y="58">weakening</tspan>
+      </text>
+      <text id="Minor_weakening" data-name="Minor
+weakening" transform="translate(625.553 202.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-31.676" y="26">Minor</tspan>
+        <tspan x="-56.848" y="58">weakening</tspan>
+      </text>
+      <text id="Minor_impairment" data-name="Minor
+impairment" transform="translate(625.553 325.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-31.676" y="26">Minor</tspan>
+        <tspan x="-60.949" y="58">impairment</tspan>
+      </text>
+      <text id="Major_impairment" data-name="Major
+impairment" transform="translate(846.553 325.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-30.99" y="26">Major</tspan>
+        <tspan x="-60.949" y="58">impairment</tspan>
+      </text>
+      <text id="Major_Weakening" data-name="Major
+Weakening" transform="translate(849.553 202.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-30.99" y="26">Major</tspan>
+        <tspan x="-58.916" y="58">Weakening</tspan>
+      </text>
+      <text id="No_impairment" data-name="No
+impairment" transform="translate(404.553 325.193)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-16.008" y="26">No</tspan>
+        <tspan x="-60.949" y="58">impairment</tspan>
+      </text>
+      <path id="Path_21" data-name="Path 21" d="M3.666,238.115H-.5V0H3.666Z" transform="translate(610.816 171.193)" fill="#eaeaea" />
+      <path id="Path_22" data-name="Path 22" d="M3.666,238.115H-.5V0H3.666Z" transform="translate(831.613 171.193)" fill="#eaeaea" />
+      <path id="Rectangle_303" data-name="Rectangle 303" d="M4.166,4.18V326.059H666.557V4.18H4.166M0,0H670.723V330.239H0Z" transform="translate(387.436 82.193)" fill="#eaeaea" />
+      <path id="Line_80" data-name="Line 80" d="M666.557,3.666H0V-.5H666.557Z" transform="translate(389.519 292.119)" fill="#eaeaea" />
+      <path id="Rectangle_304" data-name="Rectangle 304" d="M4.166,4.166v404.1H341.611V4.166H4.166M0,0H345.777V412.432H0Z" fill="#eaeaea" />
+      <path id="Line_57" data-name="Line 57" d="M3.666,88.612H-.5V0H3.666Z" transform="translate(610.816 82.193)" fill="#fff" />
+      <path id="Line_58" data-name="Line 58" d="M3.666,88.612H-.5V0H3.666Z" transform="translate(831.614 82.193)" fill="#fff" />
+    </g>
+    <text id="Mobility" transform="translate(576.47 1725.607)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-54.411" y="0">MOBILITY</tspan>
+    </text>
+    <text id="Flexibility" transform="translate(1228.47 1725.607)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-63.518" y="0">FLEXIBILITY</tspan>
+    </text>
+    <text id="Coordination_Proprioception" data-name="Coordination &amp; Proprioception" transform="translate(1904.47 1725.607)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-210.295" y="0">COORDINATION &amp; PROPRIOCEPTION</tspan>
+    </text>
+    <text id="Strength_Stability" data-name="Strength &amp; Stability" transform="translate(1880.47 1924.607)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-132.307" y="0">STRENGTH &amp; STABILITY</tspan>
+    </text>
+    <rect id="Rectangle_111" data-name="Rectangle 111" width="619" height="77.034" transform="translate(265.47 1755)" fill="#eaeaea" />
+    <rect id="Rectangle_302" data-name="Rectangle 302" width="620" height="58.963" transform="translate(1594.47 1954.394)" fill="#eaeaea" />
+    <rect id="Rectangle_125" data-name="Rectangle 125" width="619" height="77.034" transform="translate(265.47 1909.602)" fill="#eaeaea" />
+    <rect id="Rectangle_300" data-name="Rectangle 300" width="620" height="58.963" transform="translate(1594.47 2073.199)" fill="#eaeaea" />
+    <path id="Path_20" data-name="Path 20" d="M0,0H620.731V68.895H0Z" transform="translate(1593.865 1764.607)" fill="#eaeaea" />
+    <rect id="Rectangle_143" data-name="Rectangle 143" width="619" height="77.929" transform="translate(265.47 2063.669)" fill="#eaeaea" />
+    <rect id="Rectangle_298" data-name="Rectangle 298" width="619" height="58.963" transform="translate(1594.47 2192.004)" fill="#eaeaea" />
+    <rect id="Rectangle_328" data-name="Rectangle 328" width="619" height="58.963" transform="translate(1594.47 2309.929)" fill="#eaeaea" />
+    <rect id="Rectangle_151" data-name="Rectangle 151" width="619" height="77.034" transform="translate(265.47 2218.632)" fill="#eaeaea" />
+    <rect id="Rectangle_114" data-name="Rectangle 114" width="619" height="77.929" transform="translate(265.47 1831.672)" fill="#fff" />
+    <rect id="Rectangle_301" data-name="Rectangle 301" width="621" height="59.843" transform="translate(1594.47 2013.356)" fill="#fff" />
+    <rect id="Rectangle_124" data-name="Rectangle 124" width="619" height="77.034" transform="translate(265.47 1986.635)" fill="#fff" />
+    <rect id="Rectangle_299" data-name="Rectangle 299" width="621" height="59.843" transform="translate(1594.47 2132.162)" fill="#fff" />
+    <rect id="Rectangle_144" data-name="Rectangle 144" width="619" height="77.034" transform="translate(265.47 2141.598)" fill="#fff" />
+    <rect id="Rectangle_326" data-name="Rectangle 326" width="619" height="77.034" transform="translate(265.47 2296)" fill="#fff" />
+    <rect id="Rectangle_297" data-name="Rectangle 297" width="621" height="59.843" transform="translate(1594.47 2250.966)" fill="#fff" />
+    <text id="Shoulder_flexion" data-name="Shoulder flexion" transform="translate(409.47 1802)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-85.869" y="0">Shoulder flexion</tspan>
+    </text>
+    <text id="Ventral_core" data-name="Ventral core" transform="translate(1742.47 1991.115)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-63.316" y="0">Ventral core</tspan>
+    </text>
+    <text id="T-spine_rotation" data-name="T-spine rotation" transform="translate(409.47 1957)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-84.662" y="0">T-spine rotation</tspan>
+    </text>
+    <text id="Lateral_core" data-name="Lateral core" transform="translate(1742.47 2109.92)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-61.588" y="0">Lateral core</tspan>
+    </text>
+    <text id="_1-leg_stand" data-name="1-leg stand" transform="translate(1747.47 1807.607)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-59.924" y="0">1-leg stand</tspan>
+    </text>
+    <text id="Hip_extension" data-name="Hip extension" transform="translate(411.47 2111)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-72.504" y="0">Hip extension</tspan>
+    </text>
+    <text id="Hip_abductors_2" data-name="Hip abductors 2" transform="translate(1739.47 2228.725)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-84.445" y="0">Hip abductors 2</tspan>
+    </text>
+    <text id="Leg_axis" data-name="Leg axis" transform="translate(1745.47 2346.65)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-41.889" y="0">Leg axis</tspan>
+    </text>
+    <text id="Hip_endorotation" data-name="Hip endorotation" transform="translate(408.47 2266)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-91.102" y="0">Hip endorotation</tspan>
+    </text>
+    <text id="T-spine_extension" data-name="T-spine extension" transform="translate(408.47 1879)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-93.229" y="0">T-spine extension</tspan>
+    </text>
+    <text id="Dorsal_core" data-name="Dorsal core" transform="translate(1743.47 2050.077)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-60.029" y="0">Dorsal core</tspan>
+    </text>
+    <text id="Hip_flexion" data-name="Hip flexion" transform="translate(413.47 2034)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-56.941" y="0">Hip flexion</tspan>
+    </text>
+    <text id="Hip_abductors_1" data-name="Hip abductors 1" transform="translate(1739.47 2169.762)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-84.445" y="0">Hip abductors 1</tspan>
+    </text>
+    <text id="Hip_exorotation" data-name="Hip exorotation" transform="translate(410.47 2188)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-82.752" y="0">Hip exorotation</tspan>
+    </text>
+    <text id="Ankle_dorisflexion" data-name="Ankle dorisflexion" transform="translate(408.47 2343)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-94.406" y="0">Ankle dorisflexion</tspan>
+    </text>
+    <text id="Hip_extensors" data-name="Hip extensors" transform="translate(1741.47 2288.567)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-72.07" y="0">Hip extensors</tspan>
+    </text>
+    <text id="L" transform="translate(1930.47 2149.762)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-2" data-name="L" transform="translate(1930.47 2268.567)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-3" data-name="L" transform="translate(1930.47 1784.607)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-4" data-name="L" transform="translate(1930.47 2208.725)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-5" data-name="L" transform="translate(1930.47 2326.65)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="R" transform="translate(2089.47 2149.762)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-2" data-name="R" transform="translate(2089.47 2268.567)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <g id="Group_94" data-name="Group 94" transform="translate(603.47 2011)">
+      <text id="L-6" data-name="L" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-3" data-name="R" transform="translate(158)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <g id="Group_96" data-name="Group 96" transform="translate(603.47 2165)">
+      <text id="L-7" data-name="L" transform="translate(0 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-4" data-name="R" transform="translate(158 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <g id="Group_136" data-name="Group 136" transform="translate(603.47 2320)">
+      <text id="L-8" data-name="L" transform="translate(0 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-5" data-name="R" transform="translate(158 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <text id="R-6" data-name="R" transform="translate(2089.47 1784.607)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-7" data-name="R" transform="translate(2089.47 2208.725)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-8" data-name="R" transform="translate(2089.47 2326.65)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <g id="Group_93" data-name="Group 93" transform="translate(603.47 1934)">
+      <text id="L-9" data-name="L" transform="translate(0 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-9" data-name="R" transform="translate(158 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <g id="Group_95" data-name="Group 95" transform="translate(603.47 2088)">
+      <text id="L-10" data-name="L" transform="translate(0 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-10" data-name="R" transform="translate(158 0)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <g id="Group_97" data-name="Group 97" transform="translate(603.47 2243)">
+      <text id="L-11" data-name="L" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-5.648" y="26">L</tspan>
+      </text>
+      <text id="R-11" data-name="R" transform="translate(158)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+        <tspan x="-7.178" y="26">R</tspan>
+      </text>
+    </g>
+    <path id="Line_62" data-name="Line 62" d="M3.666,534.616H-.5V0H3.666Z" transform="translate(573.7 1753.708)" fill="#fff" />
+    <path id="Line_70" data-name="Line 70" d="M3.666,78.426H-.5V0H3.666Z" transform="translate(573.7 1831.672)" fill="#eaeaea" />
+    <path id="Line_71" data-name="Line 71" d="M3.666,77.067H-.5V0H3.666Z" transform="translate(573.7 1986.602)" fill="#eaeaea" />
+    <path id="Line_72" data-name="Line 72" d="M3.666,77.034H-.5V0H3.666Z" transform="translate(573.7 2141.598)" fill="#eaeaea" />
+    <path id="Line_72-2" data-name="Line 72" d="M3.666,73.668H-.5V0H3.666Z" transform="translate(573.7 2295.666)" fill="#eaeaea" />
+    <path id="Line_69" data-name="Line 69" d="M3.666,474.072H-.5V0H3.666Z" transform="translate(1902.648 1894.253)" fill="#fff" />
+    <path id="Line_67" data-name="Line 67" d="M3.666,68.739H-.5V0H3.666Z" transform="translate(1902.648 1764.817)" fill="#fff" />
+    <path id="Line_63" data-name="Line 63" d="M3.666,454.9H-.5V0H3.666Z" transform="translate(725.758 1832.034)" fill="#fff" />
+    <path id="Line_68" data-name="Line 68" d="M3.666,299.852H-.5V0H3.666Z" transform="translate(2054.733 2073.199)" fill="#fff" />
+    <path id="Line_66" data-name="Line 66" d="M3.666,70.822H-.5V0H3.666Z" transform="translate(2054.706 1764.817)" fill="#fff" />
+    <path id="Rectangle_110" data-name="Rectangle 110" d="M4.166,4.166V699.885h612.4V4.166H4.166M0,0H620.731V704.051H0Z" transform="translate(264.917 1669)" fill="#eaeaea" />
+    <path id="Rectangle_296" data-name="Rectangle 296" d="M4.166,4.166V504.084h612.4V4.166H4.166M0,0H620.731V508.25H0Z" transform="translate(1593.865 1864.801)" fill="#eaeaea" />
+    <path id="Rectangle_294" data-name="Rectangle 294" d="M4.166,4.166V162.473h612.4V4.166H4.166M0,0H620.731V166.639H0Z" transform="translate(1593.47 1669)" fill="#eaeaea" />
+    <rect id="Rectangle_292" data-name="Rectangle 292" width="614" height="87.799" transform="translate(931.47 1752.111)" fill="#eaeaea" />
+    <rect id="Rectangle_290" data-name="Rectangle 290" width="618" height="87.799" transform="translate(927.47 1927.709)" fill="#eaeaea" />
+    <rect id="Rectangle_288" data-name="Rectangle 288" width="618" height="87.799" transform="translate(927.47 2103.308)" fill="#eaeaea" />
+    <rect id="Rectangle_327" data-name="Rectangle 327" width="618" height="87.799" transform="translate(927.47 2278.906)" fill="#eaeaea" />
+    <rect id="Rectangle_291" data-name="Rectangle 291" width="622" height="87.799" transform="translate(926.47 1839.91)" fill="#fff" />
+    <rect id="Rectangle_289" data-name="Rectangle 289" width="622" height="87.799" transform="translate(926.47 2015.508)" fill="#fff" />
+    <rect id="Rectangle_287" data-name="Rectangle 287" width="622" height="87.799" transform="translate(926.47 2191.107)" fill="#fff" />
+    <text id="Pectoralis" transform="translate(1075.47 1803.406)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-50.373" y="0">Pectoralis</tspan>
+    </text>
+    <text id="Quadriceps" transform="translate(1074.47 1979.004)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-60.053" y="0">Quadriceps</tspan>
+    </text>
+    <text id="Hamstrings" transform="translate(1074.47 2154.603)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-60.146" y="0">Hamstrings</tspan>
+    </text>
+    <text id="Hamstrings-2" data-name="Hamstrings" transform="translate(1074.47 2330.201)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-60.146" y="0">Hamstrings</tspan>
+    </text>
+    <text id="Hip_flexor" data-name="Hip flexor" transform="translate(1074.47 1891.205)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-51.416" y="0">Hip flexor</tspan>
+    </text>
+    <text id="Adductor" transform="translate(1076.47 2066.803)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-49.477" y="0">Adductor</tspan>
+    </text>
+    <text id="Sit_Reach" data-name="Sit &amp; Reach" transform="translate(1073.47 2242.401)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-61.066" y="0">Sit &amp; Reach</tspan>
+    </text>
+    <text id="L-12" data-name="L" transform="translate(1265.47 1871.205)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-13" data-name="L" transform="translate(1265.47 1959.004)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-14" data-name="L" transform="translate(1265.47 2134.603)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="L-15" data-name="L" transform="translate(1265.47 2310.201)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="R-12" data-name="R" transform="translate(1423.47 1871.205)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-13" data-name="R" transform="translate(1423.47 1959.004)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-14" data-name="R" transform="translate(1423.47 2134.603)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <text id="R-15" data-name="R" transform="translate(1423.47 2310.201)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+    <path id="Line_65" data-name="Line 65" d="M3.666,616.878H-.5V0H3.666Z" transform="translate(1236.091 1752.111)" fill="#fff" />
+    <path id="Line_64" data-name="Line 64" d="M3.666,520.313H-.5V0H3.666Z" transform="translate(1388.149 1846.876)" fill="#fff" />
+    <path id="Line_73" data-name="Line 73" d="M3.666,87.8H-.5V0H3.666Z" transform="translate(1236.091 1839.91)" fill="#eaeaea" />
+    <path id="Line_79" data-name="Line 79" d="M3.666,87.8H-.5V0H3.666Z" transform="translate(1388.176 1839.91)" fill="#eaeaea" />
+    <path id="Line_74" data-name="Line 74" d="M3.666,87.8H-.5V0H3.666Z" transform="translate(1236.091 2015.508)" fill="#eaeaea" />
+    <path id="Line_75" data-name="Line 75" d="M3.666,87.8H-.5V0H3.666Z" transform="translate(1236.091 2191.106)" fill="#eaeaea" />
+    <path id="Line_77" data-name="Line 77" d="M3.64,77.067H-.5V0H3.64Z" transform="translate(725.785 1986.602)" fill="#eaeaea" />
+    <path id="Line_78" data-name="Line 78" d="M3.692,77.034H-.5V0H3.692Z" transform="translate(725.758 2141.598)" fill="#eaeaea" />
+    <path id="Line_78-2" data-name="Line 78" d="M3.692,73.668H-.5V0H3.692Z" transform="translate(725.758 2295.666)" fill="#eaeaea" />
+    <path id="Rectangle_286" data-name="Rectangle 286" d="M4.166,4.148V696.941h612.4V4.148H4.166M0,0H620.731V701.089H0Z" transform="translate(927.308 1669)" fill="#eaeaea" />
+    <path id="Line_85" data-name="Line 85" d="M3.666,68H-.5V0H3.666Z" transform="translate(1902.648 2010.654)" fill="#eaeaea" />
+    <path id="Line_86" data-name="Line 86" d="M3.666,68H-.5V0H3.666Z" transform="translate(1902.648 2127.298)" fill="#eaeaea" />
+    <path id="Line_89" data-name="Line 89" d="M3.666,70H-.5V0H3.666Z" transform="translate(2054.733 2125.408)" fill="#eaeaea" />
+    <path id="Line_96" data-name="Line 96" d="M3.666,67.622H-.5V0H3.666Z" transform="translate(2054.733 2234.325)" fill="#eaeaea" />
+    <path id="Line_87" data-name="Line 87" d="M3.666,67.622H-.5V0H3.666Z" transform="translate(1902.648 2234.325)" fill="#eaeaea" />
+    <path id="Rectangle_305" data-name="Rectangle 305" d="M4.166,4.166V1103.985H833.2V4.166H4.166M0,0H837.362V1108.151H0Z" transform="translate(1377.234 495)" fill="#eaeaea" />
+    <g id="Group_76" data-name="Group 76" transform="translate(265.157 2438.43)">
+      <rect id="Rectangle_306" data-name="Rectangle 306" width="1950" height="118" transform="translate(0.313 -0.43)" fill="#eaeaea" />
+      <text id="Training_recommendations:" data-name="Training recommendations:" transform="translate(58.313 67.57)" fill="#2b2b2b" font-size="34" font-family="SegoeUI-Bold, Segoe UI" font-weight="700">
+        <tspan x="0" y="0">Training recommendations:</tspan>
+      </text>
+      <rect id="Rectangle_307" data-name="Rectangle 307" width="20" height="118" transform="translate(0.313 -0.43)" fill="#ffa800" />
+    </g>
+    <text id="Topics" transform="translate(906.47 2662)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-40.296" y="0">TOPICS</tspan>
+    </text>
+    <text id="Additional_information" data-name="Additional information" transform="translate(1904.47 2662)" fill="#1a1818" font-size="24" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="-158.914" y="0">ADDITIONAL INFORMATION</tspan>
+    </text>
+    <text id="Mobility:" transform="translate(321 2760.938)" fill="#1a1818" font-size="22" font-family="SegoeUI, Segoe UI">
+      <tspan x="-49.951" y="0">MOBILITY:</tspan>
+    </text>
+    <text id="Flexibility:" transform="translate(265.47 3058.062)" fill="#1a1818" font-size="22" font-family="SegoeUI, Segoe UI">
+      <tspan x="0" y="0">FLEXIBILITY:</tspan>
+    </text>
+    <path id="Rectangle_110-2" data-name="Rectangle 110" d="M4.166,4.166V91.652H1278.957V4.166H4.166M0,0H1283.123V95.818H0Z" transform="translate(264.47 2606)" fill="#eaeaea" />
+    <path id="Rectangle_308" data-name="Rectangle 308" d="M4.166,4.166V91.652h612.4V4.166H4.166M0,0H620.731V95.818H0Z" transform="translate(1593.865 2606)" fill="#eaeaea" />
+    <text id="Coordination_Proprioception:" data-name="Coordination &amp; Proprioception:" transform="translate(957.47 2763.062)" fill="#1a1818" font-size="22" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="0" y="0">COORDINATION &amp; PROPRIOCEPTION:</tspan>
+    </text>
+    <text id="Strength_Stability:" data-name="Strength &amp; Stability:" transform="translate(957.47 3059.062)" fill="#1a1818" font-size="22" font-family="SegoeUI, Segoe UI" letter-spacing="0.03em">
+      <tspan x="0" y="0">STRENGTH &amp; STABILITY:</tspan>
+    </text>
+    <path id="Rectangle_310" data-name="Rectangle 310" d="M4.166,4.474V586.139h612.4V4.474H4.166M0,0H620.731V590.613H0Z" transform="translate(1593.47 2697.387)" fill="#eaeaea" />
+    <path id="Line_92" data-name="Line 92" d="M591.57,3.666H0V-.5H591.57Z" transform="translate(264.917 2783.098)" fill="#ffa800" />
+    <path id="Line_95" data-name="Line 95" d="M591.57,3.666H0V-.5H591.57Z" transform="translate(264.917 3077.891)" fill="#ffa800" />
+    <path id="Line_93" data-name="Line 93" d="M591.57,3.666H0V-.5H591.57Z" transform="translate(956.47 2783.098)" fill="#ffa800" />
+    <path id="Line_94" data-name="Line 94" d="M591.57,3.666H0V-.5H591.57Z" transform="translate(956.47 3077.891)" fill="#ffa800" />
+    <text id="L-16" data-name="L" transform="translate(1930.47 2083.92)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-5.648" y="26">L</tspan>
+    </text>
+    <text id="R-16" data-name="R" transform="translate(2089.47 2083.92)" fill="#2b2b2b" font-size="24" font-family="SegoeUI, Segoe UI">
+      <tspan x="-7.178" y="26">R</tspan>
+    </text>
+  </g>
+</svg>
