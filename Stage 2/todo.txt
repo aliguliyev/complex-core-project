@@ -1,0 +1,5 @@
+1. Generate svg based on a single result
+2. Generate html with svg as an object
+3. Repeat for every result
+4. Zip the pdfs and excel
+5. Delete all the tmp files 
