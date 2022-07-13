@@ -15,7 +15,7 @@ options = {
 
 config = pdfkit.configuration(wkhtmltopdf = r"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe")
 pdfkit.from_file(
-    'C:/Users/aguli/OneDrive/Desktop/Complex Core Project/complex-core-project/Stage 2/assets/convert/res.html', 
+    'C:/Users/aguli/OneDrive/Desktop/Complex Core Project/complex-core-project/Stage 2/convert/res.html', 
     'C:/Users/aguli/OneDrive/Desktop/Complex Core Project/complex-core-project/Stage 2/out_screening.pdf',
     options=options
     )
