@@ -6,6 +6,12 @@
     </head>
 
     <body>
+        
+            {% if zipfile %}
+            <button>
+                <a href="{{ zipfile }}" download>Download</a>
+            </button>
+            {% endif %}
         <!-- List of uploaded documents -->
         <!-- {% if documents %}
             All documents in the database:

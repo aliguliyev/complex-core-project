@@ -5,7 +5,7 @@ print(os.getcwd())
 html_file = "myapp/convert/cc25_template.html"
 with open(html_file, 'r') as f:
     soup = BeautifulSoup(f, 'xml')
-out_file = "media/html/output.html"
+
 
 colors = {
     'green': '#50bf79',
@@ -32,6 +32,8 @@ circle_ids = {
 
 
 def generate_html(final_dict, body_colors, rn_dict):
+    out_file = "media/html/" + rn_dict["Name"].replace(
+        " ", "-") + "_" + rn_dict["Date"] + ".html"
     # header
     soup.find('tspan', id='name-surname').string = rn_dict['Name']
     soup.find('tspan', id='screening-date').string = rn_dict['Date']
@@ -198,13 +200,30 @@ def generate_html(final_dict, body_colors, rn_dict):
     # additional info
     print(final_dict['Additional Information'])
     recommendations_list = final_dict['Additional Information'].split('|')
-    str_limit = int()
+    # for rec in recommendations_list:
+    #     print(f'{rec} - {len(rec)}')
+
+    # print(recommendations_list)
+    # input('Press enter to continue...')
+    str_limit = 100
+    ok_recommendations = []
     for recommendation in recommendations_list:
-        if len(recommendation) < str_limit:
-            # write to the i-th tspan
-            pass
+        if len(recommendation) <= str_limit:
+            ok_recommendations.append(recommendation)
+
+    print(ok_recommendations)
+    # input('Press enter to continue...')
+    i = 1
+    for recommendation in ok_recommendations:
+        pid = 'add-' + str(i) + '-text'
+        soup.find('p', id=pid).string = recommendation
+        i += 1
+    for index in range(len(ok_recommendations)+1, 7):
+        g_id = 'add-' + str(index)
+        soup.find('g', id=g_id).attrs['style'] = 'display: none;'
 
     with open(out_file, 'w') as f:
         f.write(str(soup))
 
     return out_file
+    # Short additional info with lenght less than 100|Short additional info with lenght more than Short additional info with lenght more than more than more than more than 100|Definetly two lines of text because of the lenght wich is less than 100 symbols

@@ -5,6 +5,7 @@ import os
 from .static import static
 from .custom_genzip import generate_zip
 from .custom_gen_html import generate_html
+from .custom_gen_pdf import generate_pdf
 proot = settings.PROJECT_ROOT
 
 
@@ -106,7 +107,12 @@ def parse(filename):
         # four major steps: personal info, test results, body colors, training recommendations
         print("Creating HTML...")
         html = generate_html(final_dict, body_colors, rn_dict)
-        print ("HTML created:", html)
+        print("HTML created:", html)
+        pdf = generate_pdf(html)
+        print("PDF created:", pdf)
+
+        forzip["res"].append(pdf)
+        # print("PDF added to forzip")
 
     def generate_single_result(row):
         print("Generating result for row:\n", row, "\n")
@@ -246,7 +252,8 @@ def parse(filename):
                         final_dict["training"]["Flexibility"].add("Calf")
                         continue
                     if t == 19:
-                        final_dict["training"]["Stability & Strength"].add("Shoulder Blade")
+                        final_dict["training"]["Stability & Strength"].add(
+                            "Shoulder Blade")
                         continue
                     final_dict["training"][t_group].add(
                         static.trainings[t_group][str(t)])
@@ -290,7 +297,7 @@ def parse(filename):
             #         "R" : static.colors[max(body_colors[key]["R"])]
             #     }
         # return final_dict, body_colors
-        write_result_to_excel(final_dict, body_colors, rn_dict)
+        # write_result_to_excel(final_dict, body_colors, rn_dict)
         write_results_to_pdf(final_dict, body_colors, rn_dict)
         # -----------------
 
@@ -379,3 +386,4 @@ def parse(filename):
 
     write_result(fin_list)
     generate_zip(forzip)
+    return(forzip["name"])
